@@ -1,0 +1,15 @@
+apiVersion: catalog.projectx.mavenwave.dev/v1alpha1
+kind: OnboardingClaim
+metadata:
+  name: ${{values.name | dump}}
+spec:
+  parameters:
+    deletionPolicy: Orphan
+    externalName:
+      folder: folders/${{values.parent_folder | dump}} # folders/901049034965
+    controlplane:
+      member:
+        name: $CP_MEMBER
+    member:
+      name: ${{values.member_name | dump}}
+    parent: $PARENT
