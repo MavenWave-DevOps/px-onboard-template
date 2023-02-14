@@ -7,7 +7,7 @@ metadata:
   tags:
     - mayo
 spec:
-  owner: fosterm-mw
+  owner: MavenWave/px-team
   type: service
 
   parameters:
