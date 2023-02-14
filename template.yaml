@@ -7,7 +7,7 @@ metadata:
   tags:
     - mayo
 spec:
-  owner: backstage/techdocs-core
+  owner: fosterm-mw
   type: service
 
   parameters:
