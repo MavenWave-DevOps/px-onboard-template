@@ -1,13 +1,11 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: datascience-ex
-  title: Data Science Project
-  description: Create a new standalone Data Science Project
+  name: onboarding-project
+  title: Onboarding Project Manifest
+  description: Create a new tenant for onboarding
   tags:
-    - not-sure
-    - what-to-say
-    - here
+    - mayo
 spec:
   owner: backstage/techdocs-core
   type: service
@@ -46,6 +44,7 @@ spec:
           ui:options:
             allowedKinds:
               - Group
+              - User
     - title: Choose a location
       required:
         - repoUrl
