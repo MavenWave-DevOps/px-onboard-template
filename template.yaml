@@ -5,8 +5,8 @@ metadata:
   title: Data Science Project
   description: Create a new standalone Data Science Project
   tags:
-    - Not Sure
-    - What to Say
+    - Not-Sure
+    - What-to-Say
     - Here
 spec:
   owner: backstage/techdocs-core
